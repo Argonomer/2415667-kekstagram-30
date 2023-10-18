@@ -15,8 +15,8 @@ function polindrom (checkText) {
     if (newString.at(i) !== newString.at(- i - 1)){
       return false;
     }
-    return true;
   }
+  return true;
 }
 
 // Строка является палиндромом
